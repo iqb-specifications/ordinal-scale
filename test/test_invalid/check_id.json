@@ -1,0 +1,33 @@
+{
+    "sourceScaleType": "https://w3id.org/iqb/v37/zg/h9g",
+    "categories": [
+        {
+            "lower_than_value": 100,
+            "label": [
+                {
+                    "lang": "de",
+                    "value": "Regelstandard"
+                }
+            ]
+        },
+        {
+            "minimal_value": 100,
+            "lower_than_value": 200,
+            "label": [
+                {
+                    "lang": "de",
+                    "value": "Optimalstandard"
+                }
+            ]
+        },
+        {
+            "minimal_value": 200,
+            "label": [
+                {
+                    "lang": "de",
+                    "value": "Regelstandard Plus"
+                }
+            ]
+        }
+    ]
+}

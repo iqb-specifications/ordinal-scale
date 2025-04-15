@@ -1,0 +1,17 @@
+{
+  "name": "@iqbspecs/ordinal-scale",
+  "version": "0.1.0",
+  "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+  "license": "CC0 1.0",
+  "description": "Scheme to translate numeric values into categories. Used in proficiency level models.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqb-specifications/ordinal-scale.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iqb-specifications/ordinal-scale/issues"
+  },
+  "homepage": "https://github.com/iqb-specifications/ordinal-scale#readme",
+  "main": "index.js",
+  "types": "index.d.ts"
+}
