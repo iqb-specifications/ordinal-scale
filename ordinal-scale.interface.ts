@@ -13,7 +13,5 @@ export interface Category {
 export interface OrdinalScale {
   id: string;
   description?: TextWithLanguage[];
-  sourceScaleType: string;
-  sourceScaleTypeAsText?: string;
   categories: Category[];
 }

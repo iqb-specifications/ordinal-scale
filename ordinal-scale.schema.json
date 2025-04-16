@@ -1,5 +1,5 @@
 {
-  "$id": "ordinal-scale@iqb-standard@0.1",
+  "$id": "ordinal-scale@iqb-standard@0.2",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Ordinal Scales",
   "description": "Scheme to translate numeric values into categories. Used in proficiency level models.",
@@ -12,14 +12,6 @@
     },
     "description": {
       "$ref": "#/definitions/multi_language_text"
-    },
-    "sourceScaleType": {
-      "type": "string",
-      "description": "Url to the vocabulary entry for the source (numeric) scale."
-    },
-    "sourceScaleTypeAsText": {
-      "type": "string",
-      "description": "Source (numeric) scale type as human readable text."
     },
     "categories": {
       "type": "array",
@@ -47,7 +39,6 @@
   },
   "required": [
     "id",
-    "sourceScaleType",
     "categories"
   ],
   "definitions": {
